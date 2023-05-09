@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  width: 50%;
+  margin: 70px auto auto auto;
+  padding: top 20px;
+  text-align: center;
+  /* From https://css.glass */
+}
+.form {
+  padding-bottom: 10px;
+}
+h1 {
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+label {
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+body {
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* -------------------
+styling of background
+-------------------*/
+.container {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  justify-content: center;
+}
+label {
+  /* align-self: flex-start; */
+  padding-right: 10px;
+}
+input {
+  align-self: flex-end;
+}
+input {
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}

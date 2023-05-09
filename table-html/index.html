@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html table</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Braah+One&family=Bruno+Ace+SC&family=Dosis:wght@400;700&family=Montserrat:wght@300&family=Noto+Sans:wght@400;600&family=Poppins:wght@600&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: #43cea2; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #185a9d,
+          #43cea2
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #185a9d,
+          #43cea2
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      table,
+      td,
+      tr {
+        border: 1px solid rgb(243, 236, 236);
+        color: white;
+      }
+      table {
+        margin: 20vh auto auto auto;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.14);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        scale: 2;
+      }
+      caption {
+        margin-bottom: 10px;
+        font-family: "Braah One", sans-serif;
+        font-family: "Bruno Ace SC", cursive;
+        font-family: "Dosis", sans-serif;
+        font-family: "Montserrat", sans-serif;
+        font-family: "Noto Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 1.5rem;
+      }
+      tr:first-child {
+        background-color: lightskyblue;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Product prices
+      </caption>
+      <tr>
+        <th>Product name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Availabilty</th>
+      </tr>
+      <tr>
+        <td>Smartwatch</td>
+        <td>Track your fitness goals and stay connected with your phone</td>
+        <td>$250.00</td>
+        <td>In stock</td>
+      </tr>
+      <tr>
+        <td>ear buds</td>
+        <td>light and smart earphones,easy to carry</td>
+        <td>$15.00</td>
+        <td>In stock</td>
+      </tr>
+      <tr>
+        <td>Laptop stand</td>
+        <td>Use to elevate your laptop for better typing and use</td>
+        <td>$5.00</td>
+        <td>In stock</td>
+      </tr>
+      <tr>
+        <td>wirless keyboards</td>
+        <td>easy to use ,use from distance</td>
+        <td>$20.00</td>
+        <td>Out of stock</td>
+      </tr>
+      <tr>
+        <td>Wireless mouse</td>
+        <td>easy to use ,use from distance</td>
+        <td>$10.00</td>
+        <td>Out of stock</td>
+      </tr>
+    </table>
+  </body>
+</html>
